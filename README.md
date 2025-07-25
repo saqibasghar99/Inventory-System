@@ -33,8 +33,8 @@ This is a focused Laravel module for managing products, inventory, and sales tra
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/inventory-system.git
-cd inventory-system
+git clone https://github.com/saqibasghar99/Inventory-System.git
+cd inventory
 ```
 
 ### 2. Install dependencies
@@ -79,9 +79,12 @@ php artisan serve
 | PUT    | /api/inventory/update/{id}    | Update stock quantity                 |
 | POST   | /api/transaction    | Process a transaction                           |
 
-| GET    | /api/pricing/{id}   | Get price of a product                          |
-| GET    | /api/audit-logs     | See all transactions logs                       |
-| GET    | /api/audit-logs/transaction/{id}  | See detail of single transactions |
+| Method | Endpoint                              | Description                              |
+|--------|----------------------------------------|------------------------------------------|
+| GET    | /api/pricing/{id}                     | Get price of a product                   |
+| GET    | /api/audit-logs                       | See all transaction logs                 |
+| GET    | /api/audit-logs/transaction/{id}      | See details of a single transaction      |
+
 
 
 ### POST `/api/transaction`
